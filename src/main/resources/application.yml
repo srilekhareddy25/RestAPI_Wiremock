@@ -1,0 +1,6 @@
+com:
+  av:
+    demo:
+      port: 4567
+server:
+  port: 18181
