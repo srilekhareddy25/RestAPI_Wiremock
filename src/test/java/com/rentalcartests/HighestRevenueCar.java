@@ -43,7 +43,7 @@ public static void main(String[] args) throws JsonParseException, JsonMappingExc
 		    Car car = objectMapper.readValue(carData, Car.class);
 		    
 		    if(((car.getPerdayrent().getPrice()-car.getPerdayrent().getDiscount())*(car.getMetrics().getRentalcount().getYeartodate()))-(car.getMetrics().getYoymaintenancecost()+car.getMetrics().getDepreciation()) > price) {
-		    	price = car.getPerdayrent().getPrice();
+		    	price = ((car.getPerdayrent().getPrice()-car.getPerdayrent().getDiscount())*(car.getMetrics().getRentalcount().getYeartodate()))-(car.getMetrics().getYoymaintenancecost()+car.getMetrics().getDepreciation());
 		    	HighestRevenueCar = car;
 		    }
 		    
