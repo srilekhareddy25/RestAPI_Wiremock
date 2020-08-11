@@ -20,7 +20,7 @@ public class TestClass {
     		"     \"vin\": \"09AGHY64352JITEG98K\"" + "," +
     		"     \"metadata\" : {" + 
     		"         \"Color\" : \"Black\"" + "," +
-    		"         \"Notes\" : \"Scratches on the front side of the car\"" +
+    		"         \"Notes\" : \"Scratches on the front side of the cars\"" +
     		"         }" + "," +
     		"     \"perdayrent\" : {" + 
     		"        \"Price\" : 140" + "," +
