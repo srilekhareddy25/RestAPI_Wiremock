@@ -51,6 +51,7 @@ public static void main(String[] args) throws JsonParseException, JsonMappingExc
 		}
 		
 		System.out.println(HighestRevenueCar.getMake());
+		System.out.println(res.statusCode());
 	}
 
 }

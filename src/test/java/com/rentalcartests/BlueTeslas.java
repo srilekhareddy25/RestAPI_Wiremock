@@ -42,18 +42,16 @@ public class BlueTeslas {
 	    
 	    if (car.getMake().equalsIgnoreCase("Tesla")) {
 	            if(car.getMetadata().getColor().equalsIgnoreCase("Blue")  ) {
-	               System.out.print(car.getMake());
-	               System.out.print(car.getMetadata().getColor());
-	               System.out.print(car.getMetadata().getNotes());
+	               System.out.println(car.getMake());
+	               System.out.println(car.getMetadata().getColor());
+	               System.out.println(car.getMetadata().getNotes());
 	               
 	            }
 	         }
-	    
-	    
-	    
-	System.out.println(res.statusCode());
 	
 	}
+	System.out.println(res.statusCode());
+	
 	
 }
 }
